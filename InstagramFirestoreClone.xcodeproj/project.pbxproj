@@ -22,6 +22,8 @@
 		4323F2DE2582402700F0A20E /* ImageSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F2DD2582402700F0A20E /* ImageSelectorViewController.swift */; };
 		4323F2E12582404D00F0A20E /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F2E02582404D00F0A20E /* NotificationsViewController.swift */; };
 		4323F2E32582405C00F0A20E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F2E22582405C00F0A20E /* ProfileViewController.swift */; };
+		4323F31B258249CE00F0A20E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F31A258249CE00F0A20E /* FeedCell.swift */; };
+		4323F31D25824AA300F0A20E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F31C25824AA300F0A20E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		4323F2DD2582402700F0A20E /* ImageSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorViewController.swift; sourceTree = "<group>"; };
 		4323F2E02582404D00F0A20E /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		4323F2E22582405C00F0A20E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4323F31A258249CE00F0A20E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		4323F31C25824AA300F0A20E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,7 @@
 		4323F2D125823D7200F0A20E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4323F31C25824AA300F0A20E /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 		4323F2D525823D9500F0A20E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4323F31A258249CE00F0A20E /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -332,8 +338,10 @@
 				4323F2A325823D2A00F0A20E /* ViewController.swift in Sources */,
 				4323F2E32582405C00F0A20E /* ProfileViewController.swift in Sources */,
 				4323F2DC2582401600F0A20E /* SearchViewController.swift in Sources */,
+				4323F31B258249CE00F0A20E /* FeedCell.swift in Sources */,
 				4323F29F25823D2A00F0A20E /* AppDelegate.swift in Sources */,
 				4323F2D825823ED400F0A20E /* MainTabController.swift in Sources */,
+				4323F31D25824AA300F0A20E /* Extensions.swift in Sources */,
 				4323F2A925823D2A00F0A20E /* InstagramFirestoreClone.xcdatamodeld in Sources */,
 				4323F2DE2582402700F0A20E /* ImageSelectorViewController.swift in Sources */,
 				4323F2DA2582400400F0A20E /* FeedViewController.swift in Sources */,
