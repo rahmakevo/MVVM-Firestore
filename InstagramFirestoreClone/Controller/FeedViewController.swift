@@ -6,4 +6,11 @@
 //  Copyright © 2020 Kevin Siundu. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class FeedViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}

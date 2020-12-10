@@ -17,6 +17,11 @@
 		4323F2B925823D2D00F0A20E /* InstagramFirestoreCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F2B825823D2D00F0A20E /* InstagramFirestoreCloneTests.swift */; };
 		4323F2C425823D2D00F0A20E /* InstagramFirestoreCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F2C325823D2D00F0A20E /* InstagramFirestoreCloneUITests.swift */; };
 		4323F2D825823ED400F0A20E /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F2D725823ED400F0A20E /* MainTabController.swift */; };
+		4323F2DA2582400400F0A20E /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F2D92582400400F0A20E /* FeedViewController.swift */; };
+		4323F2DC2582401600F0A20E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F2DB2582401600F0A20E /* SearchViewController.swift */; };
+		4323F2DE2582402700F0A20E /* ImageSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F2DD2582402700F0A20E /* ImageSelectorViewController.swift */; };
+		4323F2E12582404D00F0A20E /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F2E02582404D00F0A20E /* NotificationsViewController.swift */; };
+		4323F2E32582405C00F0A20E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F2E22582405C00F0A20E /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		4323F2C325823D2D00F0A20E /* InstagramFirestoreCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramFirestoreCloneUITests.swift; sourceTree = "<group>"; };
 		4323F2C525823D2D00F0A20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4323F2D725823ED400F0A20E /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		4323F2D92582400400F0A20E /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		4323F2DB2582401600F0A20E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4323F2DD2582402700F0A20E /* ImageSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorViewController.swift; sourceTree = "<group>"; };
+		4323F2E02582404D00F0A20E /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		4323F2E22582405C00F0A20E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +167,11 @@
 			isa = PBXGroup;
 			children = (
 				4323F2D725823ED400F0A20E /* MainTabController.swift */,
+				4323F2D92582400400F0A20E /* FeedViewController.swift */,
+				4323F2DB2582401600F0A20E /* SearchViewController.swift */,
+				4323F2DD2582402700F0A20E /* ImageSelectorViewController.swift */,
+				4323F2E02582404D00F0A20E /* NotificationsViewController.swift */,
+				4323F2E22582405C00F0A20E /* ProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -313,10 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4323F2E12582404D00F0A20E /* NotificationsViewController.swift in Sources */,
 				4323F2A325823D2A00F0A20E /* ViewController.swift in Sources */,
+				4323F2E32582405C00F0A20E /* ProfileViewController.swift in Sources */,
+				4323F2DC2582401600F0A20E /* SearchViewController.swift in Sources */,
 				4323F29F25823D2A00F0A20E /* AppDelegate.swift in Sources */,
 				4323F2D825823ED400F0A20E /* MainTabController.swift in Sources */,
 				4323F2A925823D2A00F0A20E /* InstagramFirestoreClone.xcdatamodeld in Sources */,
+				4323F2DE2582402700F0A20E /* ImageSelectorViewController.swift in Sources */,
+				4323F2DA2582400400F0A20E /* FeedViewController.swift in Sources */,
 				4323F2A125823D2A00F0A20E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

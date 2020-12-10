@@ -6,4 +6,10 @@
 //  Copyright © 2020 Kevin Siundu. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class ImageSelectorViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
