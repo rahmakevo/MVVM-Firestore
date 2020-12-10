@@ -16,6 +16,7 @@
 		4323F2AE25823D2D00F0A20E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4323F2AC25823D2D00F0A20E /* LaunchScreen.storyboard */; };
 		4323F2B925823D2D00F0A20E /* InstagramFirestoreCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F2B825823D2D00F0A20E /* InstagramFirestoreCloneTests.swift */; };
 		4323F2C425823D2D00F0A20E /* InstagramFirestoreCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F2C325823D2D00F0A20E /* InstagramFirestoreCloneUITests.swift */; };
+		4323F2D825823ED400F0A20E /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F2D725823ED400F0A20E /* MainTabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4323F2BF25823D2D00F0A20E /* InstagramFirestoreCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramFirestoreCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4323F2C325823D2D00F0A20E /* InstagramFirestoreCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramFirestoreCloneUITests.swift; sourceTree = "<group>"; };
 		4323F2C525823D2D00F0A20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4323F2D725823ED400F0A20E /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 		4323F2D325823D7B00F0A20E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4323F2D725823ED400F0A20E /* MainTabController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			files = (
 				4323F2A325823D2A00F0A20E /* ViewController.swift in Sources */,
 				4323F29F25823D2A00F0A20E /* AppDelegate.swift in Sources */,
+				4323F2D825823ED400F0A20E /* MainTabController.swift in Sources */,
 				4323F2A925823D2A00F0A20E /* InstagramFirestoreClone.xcdatamodeld in Sources */,
 				4323F2A125823D2A00F0A20E /* SceneDelegate.swift in Sources */,
 			);
