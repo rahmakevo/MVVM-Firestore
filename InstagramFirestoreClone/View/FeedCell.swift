@@ -133,7 +133,8 @@ class FeedCell: UICollectionViewCell {
             top: captionsLabel.bottomAnchor,
             left: leftAnchor,
             paddingTop: 8,
-            paddingLeft: 8
+            paddingLeft: 8,
+            paddingBottom: 8
         )
     }
     
