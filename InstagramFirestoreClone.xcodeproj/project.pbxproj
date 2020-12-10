@@ -24,6 +24,10 @@
 		4323F2E32582405C00F0A20E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F2E22582405C00F0A20E /* ProfileViewController.swift */; };
 		4323F31B258249CE00F0A20E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F31A258249CE00F0A20E /* FeedCell.swift */; };
 		4323F31D25824AA300F0A20E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F31C25824AA300F0A20E /* Extensions.swift */; };
+		4373704425829BBC00EEC0F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4373704325829BBC00EEC0F5 /* LoginViewController.swift */; };
+		4373704625829BCB00EEC0F5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4373704525829BCB00EEC0F5 /* RegisterViewController.swift */; };
+		437370482582A68500EEC0F5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437370472582A68500EEC0F5 /* CustomTextField.swift */; };
+		4373704C2582B3C700EEC0F5 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4373704B2582B3C700EEC0F5 /* AuthenticationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		4323F2E22582405C00F0A20E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		4323F31A258249CE00F0A20E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		4323F31C25824AA300F0A20E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4373704325829BBC00EEC0F5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4373704525829BCB00EEC0F5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		437370472582A68500EEC0F5 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		4373704B2582B3C700EEC0F5 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +179,7 @@
 		4323F2D325823D7B00F0A20E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4373704225829B9E00EEC0F5 /* Authentication */,
 				4323F2D725823ED400F0A20E /* MainTabController.swift */,
 				4323F2D92582400400F0A20E /* FeedViewController.swift */,
 				4323F2DB2582401600F0A20E /* SearchViewController.swift */,
@@ -184,6 +193,7 @@
 		4323F2D425823D7E00F0A20E /* View Model */ = {
 			isa = PBXGroup;
 			children = (
+				4373704B2582B3C700EEC0F5 /* AuthenticationViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -192,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				4323F31A258249CE00F0A20E /* FeedCell.swift */,
+				437370472582A68500EEC0F5 /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,6 +212,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4373704225829B9E00EEC0F5 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				4373704325829BBC00EEC0F5 /* LoginViewController.swift */,
+				4373704525829BCB00EEC0F5 /* RegisterViewController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,14 +358,18 @@
 				4323F2A325823D2A00F0A20E /* ViewController.swift in Sources */,
 				4323F2E32582405C00F0A20E /* ProfileViewController.swift in Sources */,
 				4323F2DC2582401600F0A20E /* SearchViewController.swift in Sources */,
+				4373704C2582B3C700EEC0F5 /* AuthenticationViewModel.swift in Sources */,
 				4323F31B258249CE00F0A20E /* FeedCell.swift in Sources */,
 				4323F29F25823D2A00F0A20E /* AppDelegate.swift in Sources */,
 				4323F2D825823ED400F0A20E /* MainTabController.swift in Sources */,
 				4323F31D25824AA300F0A20E /* Extensions.swift in Sources */,
 				4323F2A925823D2A00F0A20E /* InstagramFirestoreClone.xcdatamodeld in Sources */,
+				4373704625829BCB00EEC0F5 /* RegisterViewController.swift in Sources */,
 				4323F2DE2582402700F0A20E /* ImageSelectorViewController.swift in Sources */,
 				4323F2DA2582400400F0A20E /* FeedViewController.swift in Sources */,
+				4373704425829BBC00EEC0F5 /* LoginViewController.swift in Sources */,
 				4323F2A125823D2A00F0A20E /* SceneDelegate.swift in Sources */,
+				437370482582A68500EEC0F5 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
